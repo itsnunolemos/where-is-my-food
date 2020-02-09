@@ -1,0 +1,124 @@
+
+/**
+ * Import dependencies.
+ */
+
+@import 'colors';
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap');
+
+/**
+ * Global.
+ */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+a {
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+header {
+  background: $yellow;
+  padding-bottom: 170px;
+  padding: 50px;
+  text-align: left;
+
+  @media (max-width: 768px) {
+    padding-bottom: 90px;
+    text-align: center;
+  }
+}
+
+.logo {
+  color: $white;
+  font-size: 26px;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.19), 0 2px 10px rgba(0,0,0,0.23);
+
+  span {
+    font-weight: bold;
+  }
+}
+
+main {
+  padding-bottom: 70px;
+  position: relative;
+
+  @media (min-width: 768px) {
+    padding-bottom: 119px;
+  }
+
+  svg {
+    position: absolute;
+    z-index: -1;
+  }
+}
+
+.content {
+  background: $yellow;
+}
+
+p {
+  font-size: 14px;;
+}
+
+.notes {
+  display: block;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.search-track {
+  display: table;
+  width: 100%;
+
+  &__check {
+    background: $white;
+    display: table;
+    height: 44px;
+    line-height: 44px;
+    padding-right: 10px;
+    width: 20px;
+
+    &--green {
+      color: $green;
+    }
+    &--red {
+      color: $red;
+    }
+  }
+}
+
+.input-track {
+  border: none;
+  float: left;
+  font-size: 16px;
+  padding: 10px;
+  width: 60%;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.hidden-sm {
+  display: none;
+
+  @media (min-width: 768px) {
+    display: block;
+  }
+}
+
+.track-details {
+  display: table;
+  margin: 0 auto;
+
+  h2 {
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,64 @@
+
+/**
+ * Import dependencies.
+ */
+
+@import 'styles/colors';
+
+/**
+ * Track.
+ */
+
+.track {
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  width: 300px;
+
+  &__courier {
+    background: $yellow;
+    border-radius: 20px;
+    padding: 20px 0;
+
+    &__name {
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    &__vehicle {
+      font-size: 12px;
+      font-weight: 400;
+    }
+
+    &__rating {
+      font-size: 14px;
+      font-weight: 400;
+    }
+
+    &__call {
+      background: #fff;
+      border-radius: 10px;
+      cursor: pointer;
+      display: inline-block;
+      margin-top: 10px;
+      padding: 8px;
+
+      span {
+        margin-right: 5px;
+      }
+    }
+  }
+
+  &__info {
+    margin-top: 10px;
+    padding-bottom: 10px;
+
+    span {
+      margin-right: 5px;
+    }
+
+    &__note {
+      font-size: 10px;
+      margin-top: 4px;
+    }
+  }
+}

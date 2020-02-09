@@ -1,0 +1,49 @@
+
+/**
+ * Import dependencies.
+ */
+
+@import 'styles/colors';
+
+/**
+ * Footer.
+ */
+
+footer {
+  font-size: 13px;
+  margin-top: 100px;
+  padding: 30px;
+  text-align: center;
+
+  span {
+    margin: 0 5px;
+  }
+}
+
+a {
+  color: $yellow;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 5px;
+  padding: 0 5px;
+  text-decoration: none;
+  transition: all .3s;
+
+  &:after {
+    background: $yellow;
+    content: '';
+    display: block;
+    height: 2px;
+    transition: all .3s;
+    width: 0;
+  }
+
+  &:hover{
+    color: $yellow;
+
+    &::after {
+      width: 100%;
+    }
+  }
+}

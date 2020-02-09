@@ -1,0 +1,29 @@
+[
+  {
+    "id": "XfBi1XGI",
+    "name": "Pedro Costa",
+    "vehicle": "Bike",
+    "rating": "3.9",
+    "photo": "assets/user1.png",
+    "time": "5",
+    "delivery": "19h45"
+  },
+  {
+    "id": "BYaNQDiR",
+    "name": "Joana Correia",
+    "vehicle": "Car",
+    "rating": "4.5",
+    "photo": "assets/user2.png",
+    "time": "10",
+    "delivery": "12h45"
+  },
+  {
+    "id": "4PlGZkOh",
+    "name": "Rui Silva",
+    "vehicle": "Motorcycle",
+    "rating": "4.4",
+    "photo": "assets/user3.png",
+    "time": "25",
+    "delivery": "12h00"
+  }
+]
