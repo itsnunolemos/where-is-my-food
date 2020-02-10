@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9a42965eff5e0d203878bf35b5771dc9",
+    "revision": "71cc8191afe2ee8529bd9af27b878a0f",
     "url": "/where-is-my-food/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/where-is-my-food/static/css/2.699c7d85.chunk.css"
   },
   {
-    "revision": "1a58848497180c4e8f45",
+    "revision": "ff22c4a7151bedf4e641",
     "url": "/where-is-my-food/static/css/main.311cb43e.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/where-is-my-food/static/js/2.3ad40da8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1a58848497180c4e8f45",
-    "url": "/where-is-my-food/static/js/main.3c0c2c9c.chunk.js"
+    "revision": "ff22c4a7151bedf4e641",
+    "url": "/where-is-my-food/static/js/main.233af750.chunk.js"
   },
   {
     "revision": "226b654e788ce7824fd9",
