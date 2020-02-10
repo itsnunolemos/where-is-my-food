@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a71e0160ac04db89688b788d45ddc6c6",
+    "revision": "9a42965eff5e0d203878bf35b5771dc9",
     "url": "/where-is-my-food/index.html"
   },
   {
-    "revision": "e15632d2e54f0290f522",
+    "revision": "d8715c67e7e7e92ae861",
     "url": "/where-is-my-food/static/css/2.699c7d85.chunk.css"
   },
   {
-    "revision": "1bc4da4690b9924ce56b",
+    "revision": "1a58848497180c4e8f45",
     "url": "/where-is-my-food/static/css/main.311cb43e.chunk.css"
   },
   {
-    "revision": "e15632d2e54f0290f522",
-    "url": "/where-is-my-food/static/js/2.9be8bbdf.chunk.js"
+    "revision": "d8715c67e7e7e92ae861",
+    "url": "/where-is-my-food/static/js/2.3ad40da8.chunk.js"
   },
   {
     "revision": "bf23039b4e70a07c5aeb1b4010df3572",
-    "url": "/where-is-my-food/static/js/2.9be8bbdf.chunk.js.LICENSE.txt"
+    "url": "/where-is-my-food/static/js/2.3ad40da8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1bc4da4690b9924ce56b",
-    "url": "/where-is-my-food/static/js/main.e43f2b81.chunk.js"
+    "revision": "1a58848497180c4e8f45",
+    "url": "/where-is-my-food/static/js/main.3c0c2c9c.chunk.js"
   },
   {
     "revision": "226b654e788ce7824fd9",
