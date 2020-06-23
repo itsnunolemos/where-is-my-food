@@ -27,15 +27,18 @@ const TrackDetails = ({ item }) => {
                 <span role="img" aria-label="star">⭐</span>
                 {rating}
               </div>
+
               <div className="track__courier__call">
                 <span role="img" aria-label="phone">📞</span>
                 Call
               </div>
             </Col>
+
             <Col>
               <div className="track__courier__photo">
                 <Figure.Image
                   alt="171x180"
+                  className="track__courier__profile"
                   fluid={false}
                   height={100}
                   roundedCircle={true}
@@ -47,6 +50,7 @@ const TrackDetails = ({ item }) => {
           </Row>
         </Container>
       </div>
+
       <div className="track__info">
         <Container>
           <Row>
@@ -57,6 +61,7 @@ const TrackDetails = ({ item }) => {
                 {time} min
               </div>
             </Col>
+
             <Col>
               <div className="track__info__delivery">
                 <div className="track__info__note">Delivery time:</div>

@@ -57,6 +57,7 @@ class PageHomepage extends Component {
             Where is my <span>food</span>
           </div>
         </header>
+
         <main>
           <div className="content">
             <Container>
@@ -71,17 +72,21 @@ class PageHomepage extends Component {
                       onChange={this.handleGetDelivery}
                       placeholder="Insert your order code"
                     />
+
                     <div className="search-track__check">
                       {!loading && item && inputFilled && (
                         <span className="search-track__check--green">✔</span>
                       )}
+
                       {!loading && !item && inputFilled && (
                         <span className="search-track__check--red">x</span>
                       )}
                     </div>
                   </div>
+
                   <p className="notes">Example: XfBi1XGI, BYaNQDiR, 4PlGZkOh</p>
                 </Col>
+
                 <Col className="hidden-sm">
                   <h3>Your service to find your food</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dapibus neque neque, id sagittis orci volutpat vitae. Donec enim lorem, ornare in nibh sit amet, eleifend imperdiet libero. Ut iaculis sit amet libero non suscipit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
@@ -93,6 +98,7 @@ class PageHomepage extends Component {
             <path fill="#ffbd1b" fillOpacity="1" d="M0,64L120,58.7C240,53,480,43,720,53.3C960,64,1200,96,1320,112L1440,128L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path>
           </svg>
         </main>
+
         <section className="track-details">
           {loading && (
             <Spinner animation="grow" />
@@ -107,6 +113,7 @@ class PageHomepage extends Component {
             </div>
           )}
         </section>
+
         <footer>
           <Footer />
         </footer>
